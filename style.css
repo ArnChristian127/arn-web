@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Silkscreen", sans-serif;
+    border-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-container {
+    background: linear-gradient(to bottom, rgb(105, 165, 187), rgb(243, 126, 235));
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.nav-logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-bar button {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 8px;
+    width: 150px;
+}
+.nav-bar button a {
+    font-weight: 15px;
+}
+.nav-bar button:hover {
+    background-color: rgb(112, 224, 255);
+}
+.nav-bar button a {
+    color: rgb(255, 0, 255);
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+.section-1 {
+    background: url('background-1.png');
+    background-position: center;
+    background-size: cover;
+}
+.content-container {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 15%;
+}
+.contents {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.content-title p {
+    color: rgba(247, 247, 247, 0.884);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-shadow: 0px 2px 4px rgb(214, 3, 233);
+}
+.content-description {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 4px rgb(214, 3, 233);
+}
+.content-buttons button  {
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.content-buttons button a {
+    color: white;
+}
+.auto-type {
+    color: rgb(0, 225, 255);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-shadow: 0px 2px 4px rgb(214, 3, 233);
+}
+.color-1 {
+    background-color: rgb(253, 67, 244);
+    box-shadow: 0 4px 8px 0 rgb(255, 63, 207), 0 6px 20px 0 rgba(217, 0, 255, 0.945);
+}
+.color-1:hover {
+    background-color: rgb(200, 38, 221);
+    box-shadow: 0 4px 8px 0 rgb(221, 56, 180), 0 6px 20px 0 rgba(197, 1, 231, 0.945);
+}
+.color-2 {
+    background-color: rgb(42, 170, 255);
+    box-shadow: 0 4px 8px 0 rgb(63, 185, 255), 0 6px 20px 0 rgba(5, 184, 255, 0.945);
+}
+.color-2:hover {
+    background-color: rgb(37, 157, 238);
+    box-shadow: 0 4px 8px 0 rgb(56, 167, 231), 0 6px 20px 0 rgba(0, 166, 231, 0.945);
+}
+.section-2 {
+    background: url('background-2.png');
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+.content-container-2 {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 120%;
+}
+.contents-2 {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.content-title-2 p {
+    color: rgba(120, 206, 247, 0.884);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-shadow: 0px 2px 4px rgb(214, 3, 233);
+}
+.box-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.box-exp-content-1 {
+    width: 50vh;
+    height: 70vh;
+    background-color: rgb(253, 243, 249);
+    box-shadow: 10px 10px 5px rgb(10, 226, 241);
+    border-radius: 50px;
+}
+.box-exp-list-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
+}
+.exp-title-design-1 {
+    font-size: 20px;
+    color: rgb(247, 3, 255);
+}
+.program-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.java-size {
+    width: 5vh;
+}
+.lua-size {
+    width: 5vh;
+}
+.css-size {
+    width: 5vh;
+}
+.html-size {
+    width: 6vh;
+}
+.box-exp-content-2 {
+    width: 50vh;
+    height: 70vh;
+    background-color: rgb(253, 243, 249);
+    box-shadow: 10px 10px 5px rgb(241, 10, 229);
+    border-radius: 50px;
+}
+.work-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fh-size {
+    width: 8vh;
+}
+.fluoro-style {
+    color: rgb(250, 37, 204);
+}
+.fluoro-style:hover {
+    color: rgb(167, 39, 139);
+}
+.box-exp-list-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
+}
+.exp-title-design-2 {
+    font-size: 20px;
+    color: rgb(3, 196, 255);
+}
+@media screen and (max-width: 768px) {
+    .nav-logo {
+        font-size: 25px;
+    }
+    .nav-bar button {
+        border-radius: 50px;
+        padding: 5px;
+        width: auto;
+    }
+    .nav-bar button a {
+        font-weight: 10px;
+    }
+    .contents {
+        gap: 50px;
+        min-height: 500px;
+    }
+    .content-title p {
+        font-size: 30px;
+    }
+    .auto-type {
+        font-size: 40px;
+    }
+    .content-buttons button  {
+        width: 150px;
+    }
+    .content-title-2 p {
+        font-size: 40px;
+    }
+    .box-exp-list-1 {
+        gap: 30px;
+    }
+    .box-exp-list-2 {
+        gap: 30px;
+    }
+    .box-contents {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .exp-title-design-1 {
+        font-size: 15px;
+        color: rgb(247, 3, 255);
+    }
+    .exp-title-design-2 {
+        font-size: 15px;
+        color: rgb(3, 196, 255);
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-logo {
+        font-size: 20px;
+    }
+    .nav-bar button {
+        border-radius: 50px;
+        padding: 5px;
+        width: auto;
+    }
+    .nav-bar button a {
+        font-weight: 10px;
+    }
+    .content-container {
+        left: 10%;
+        right: 10%;
+    }
+    .content-title p {
+        font-size: 15px;
+    }
+    .auto-type {
+        font-size: 20px;
+    }
+    .contents {
+        gap: 50px;
+        min-height: 400px;
+    }
+    .content-title p {
+        font-size: 25px;
+    }
+    .content-description {
+        font-size: 13px;
+    }
+    .content-buttons button  {
+        padding: 10px;
+        width: 120px;
+        border-radius: 80px;
+    }
+    .content-buttons button a {
+        font-size: 9px;
+    }
+    .content-title-2 p {
+        font-size: 30px;
+    }
+    .box-exp-content-1 {
+        width: 40vh;
+        height: 65vh;
+    }
+    .exp-title-design-1 {
+        font-size: 14px;
+        color: rgb(247, 3, 255);
+    }
+    .box-exp-content-2 {
+        width: 40vh;
+        height: 65vh;
+    }
+    .exp-title-design-2 {
+        font-size: 14px;
+        color: rgb(3, 196, 255);
+    }
+    .box-contents {
+        gap: 20px;
+    }
+    .contents-2 {
+        gap: 5px;
+    }
+    .work-list p {
+        font-size: 15px;
+    }
+    .section-2 {
+        height: 180vh;
+    }
+}
